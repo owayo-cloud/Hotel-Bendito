@@ -1,7 +1,7 @@
 # Hotel-Bendito
 
 ## Como Funciona
- O Hotel Bendito permite aos usuários gerenciar reservas de quartos, cadastro de hóspedes e eventos de forma simples e eficiente. Abaixo, descrevemos o funcionamento de cada funcionalidade principal:
+ O Hotel Bendito permite aos usuários gerenciar reservas de quartos, cadastro de hóspedes e eventos de forma simples e eficiente. Abaixo, descrevo o funcionamento de cada funcionalidade principal:
  
 ### 1. Login de Usuário
 - Ao acessar a aplicação, os usuários devem inserir seu nome e senha para se autenticar. O sistema utiliza uma senha padrão (`2678`) para o acesso inicial.
