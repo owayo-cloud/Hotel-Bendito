@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Bendito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Hotel Bendito</h1>
+        <div id="welcomeMessage"></div>
+        <div id="loginForm" class="form">
+            <input type="text" id="username" placeholder="Digite seu nome">
+            <input type="password" id="password" placeholder="Digite sua senha">
+            <button onclick="login()">Entrar</button>
+        </div>
+        <div id="mainMenu" class="menu" style="display:none;">
+            <h2>Menu Principal</h2>
+            <button onclick="reservarQuarto()">Reservar Quarto</button>
+            <button onclick="cadastrarHospedes()">Cadastrar Hóspedes</button>
+            <button onclick="gerenciarEventos()">Gerenciar Eventos</button>
+            <button onclick="sair()">Sair</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
