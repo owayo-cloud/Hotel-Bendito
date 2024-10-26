@@ -26,6 +26,3 @@
 - A interface é responsiva e amigável, projetada para facilitar a navegação.
 - Os usuários podem facilmente acessar cada funcionalidade através de um menu principal.
  
-### 6. Armazenamento de Dados
-- As informações de reservas, hóspedes e eventos são armazenadas localmente, permitindo o acesso rápido e fácil a qualquer momento.
-- Ao utilizar o Hotel Bendito, os usuários têm à sua disposição uma ferramenta eficaz para gerenciar suas reservas e serviços de hotelaria de forma prática e organizada.
