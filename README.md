@@ -25,4 +25,6 @@
 ### 5. Interface
 - A interface é responsiva e amigável, projetada para facilitar a navegação.
 - Os usuários podem facilmente acessar cada funcionalidade através de um menu principal.
+
+ [Acesse o Hotel Bendito aqui](https://lysciprianno.github.io/Hotel-Bendito/)
  
