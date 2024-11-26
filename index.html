@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Bendito</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <h1>Bem-vindo ao Hotel Bendito</h1>
-        <div id="welcomeMessage"></div>
-        <div id="loginForm" class="form">
-            <input type="text" id="username" placeholder="Digite seu nome">
-            <input type="password" id="password" placeholder="Digite sua senha">
-            <button onclick="login()">Entrar</button>
+        
+        <!-- Welcome message will appear here after login -->
+        <div id="welcomeMessage" class="welcome-message"></div>
+
+        <!-- Login Form -->
+        <div id="loginForm" class="form-container">
+            <h2>Login</h2>
+            <form>
+                <div class="input-group">
+                    <label for="username">Nome:</label>
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" placeholder="Digite seu nome" required>
+                </div>
+                <div class="input-group password-container">
+                    <label for="password">Senha:</label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                    <i class="fas fa-eye" id="togglePassword" onclick="togglePassword()"></i>
+                </div>
+                <button type="button" onclick="login()">Entrar</button>
+            </form>
         </div>
+
+        <!-- Main Menu (hidden by default) -->
         <div id="mainMenu" class="menu" style="display:none;">
             <h2>Menu Principal</h2>
             <button onclick="reservarQuarto()">Reservar Quarto</button>
@@ -23,6 +42,7 @@
             <button onclick="sair()">Sair</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
